@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello from Railway!"}
+    return {"message": "Hello from Railway + Docker!"}
 
 @app.post("/api/")
 def get_answer():
